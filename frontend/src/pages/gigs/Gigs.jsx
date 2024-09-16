@@ -1,4 +1,4 @@
-/*
+
 import React, { useRef, useState } from "react";
 import "./Gigs.scss";
 import { gigs } from "../../data";
@@ -64,4 +64,3 @@ function Gigs() {
 }
 
 export default Gigs;
-*/
