@@ -1,8 +1,7 @@
-/*
 import createError from "../utils/createError.js";
 import Review from "../models/review.model.js";
 import Gig from "../models/gig.model.js";
-//d
+//dd
 export const createReview = async (req, res, next) => {
   if (req.isSeller)
     return next(createError(403, "Sellers can't create a review!"));
@@ -52,4 +51,3 @@ export const deleteReview = async (req, res, next) => {
     next(err);
   }
 };
-*/
