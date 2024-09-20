@@ -1,4 +1,3 @@
-/*
 import express from "express";
 import {
   createGig,
@@ -16,4 +15,3 @@ router.get("/single/:id", getGig);
 router.get("/", getGigs);
 
 export default router;
-*/
