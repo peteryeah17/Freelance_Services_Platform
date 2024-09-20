@@ -6,7 +6,7 @@ import {
   getGigs
 } from "../controllers/gig.controller.js";
 import { verifyToken } from "../middleware/jwt.js";
-//d
+//dd
 const router = express.Router();
 
 router.post("/", verifyToken, createGig);
