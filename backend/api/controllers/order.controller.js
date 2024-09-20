@@ -1,9 +1,8 @@
-/*
 import createError from "../utils/createError.js";
 import Order from "../models/order.model.js";
 import Gig from "../models/gig.model.js";
 import Stripe from "stripe";
-//d
+//dd
 export const intent = async (req, res, next) => {
   const stripe = new Stripe(process.env.STRIPE);
 
@@ -64,4 +63,3 @@ export const confirm = async (req, res, next) => {
     next(err);
   }
 };
-*/
