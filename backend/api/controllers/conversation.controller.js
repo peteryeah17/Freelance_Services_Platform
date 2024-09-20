@@ -1,7 +1,6 @@
-/*
 import createError from "../utils/createError.js";
 import Conversation from "../models/conversation.model.js";
-//d
+//dd
 export const createConversation = async (req, res, next) => {
   const newConversation = new Conversation({
     id: req.isSeller ? req.userId + req.body.to : req.body.to + req.userId,
@@ -59,4 +58,3 @@ export const getConversations = async (req, res, next) => {
     next(err);
   }
 };
-*/
