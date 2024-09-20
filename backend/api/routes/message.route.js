@@ -1,4 +1,3 @@
-/*
 import express from "express";
 import {
   createMessage,
@@ -12,4 +11,3 @@ router.post("/", verifyToken, createMessage);
 router.get("/:id", verifyToken, getMessages);
 
 export default router;
-*/

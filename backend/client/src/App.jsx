@@ -17,11 +17,12 @@ import {
   QueryClient,
   QueryClientProvider,
 } from "@tanstack/react-query";
-//import Pay from "./pages/pay/Pay";
-//import Success from "./pages/success/Success";
+import Pay from "./pages/pay/pay";
+import Success from "./pages/success/Success";
+//dd
 function App() {
   const queryClient = new QueryClient();
-//d
+
   const Layout = () => {
     return (
       <div className="app">
@@ -79,7 +80,6 @@ function App() {
           path: "/login",
           element: <Login />,
         },
-        /*
         {
           path: "/pay/:id",
           element: <Pay />,
@@ -88,7 +88,6 @@ function App() {
           path: "/success",
           element: <Success />,
         },
-        */
       ],
     },
   ]);
