@@ -1,6 +1,6 @@
 import React from "react";
 import "./ProjectCard.scss";
-//d
+//dd
 function ProjectCard({ card }) {
   return (
     <div className="projectCard">

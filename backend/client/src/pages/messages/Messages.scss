@@ -1,58 +1,69 @@
 .messages {
-    display: flex;
-    justify-content: center;
-  //d
-    .container {
-      width: 1400px;
-      padding: 50px 0px;
-  
-      .title {
-        display: flex;
-        justify-content: space-between;
-  
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 1400px;
+    padding: 50px 0px;
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        background-color: #1dbf73;
+        color: white;
+        font-weight: 500;
+        border: none;
+        padding: 10px;
+        cursor: pointer;
+      }
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse; // Ensure no extra spacing between cells
+
+      th, td {
+        padding: 15px; // Add padding to the cells
+        text-align: left; // Align text to the left
+        border-bottom: 1px solid #ddd; // Add a light border for better separation
+      }
+
+      th {
+        font-weight: bold;
+      }
+
+      td {
+        &:first-child {
+          font-weight: 500;
+        }
+
+        &:nth-child(2),
+        &:nth-child(3) {
+          color: gray;
+        }
+      }
+
+      tr {
+        height: 100px;
+
+        &:hover {
+          background-color: #f1f1f1; // Highlight row on hover for better visibility
+        }
+
+        &.active {
+          background-color: #1dbf730f;
+        }
+
         button {
           background-color: #1dbf73;
           color: white;
-          font-weight: 500;
-          border: none;
           padding: 10px;
+          border: none;
           cursor: pointer;
-        }
-      }
-  
-      table {
-        width: 100%;
-  
-        tr {
-          height: 100px;
-          th {
-            text-align: left;
-          }
-          td {
-            padding: 10px;
-  
-            &:first-child {
-              font-weight: 500;
-            }
-            
-            &:nth-child(2),
-            &:nth-child(3) {
-              color: gray;
-            }
-          }
-  
-          button {
-            background-color: #1dbf73;
-            color: white;
-            padding: 10px;
-            border: none;
-            cursor: pointer;
-          }
-  
-          &.active {
-            background-color: #1dbf730f;
-          }
         }
       }
     }
   }
+}

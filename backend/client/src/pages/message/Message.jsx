@@ -32,6 +32,7 @@ const Message = () => {
     mutation.mutate({
       conversationId: id,
       desc: e.target[0].value,
+      username: currentUser.username, // Ensure `currentUser` has a `username` field
     });
     e.target[0].value = "";
   };
@@ -40,7 +41,7 @@ const Message = () => {
     <div className="message">
       <div className="container">
         <span className="breadcrumbs">
-          <Link to="/messages">Messages</Link> > John Doe >
+          <Link to="/messages">Messages</Link> John Doe
         </span>
         {isLoading ? (
           "loading"

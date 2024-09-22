@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./CatCard.scss";
-//d
+//dd
 function CatCard({ card }) {
   return (
     <Link to="/gigs?cat=design">
