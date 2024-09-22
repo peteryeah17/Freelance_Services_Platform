@@ -1,6 +1,6 @@
 import createError from "../utils/createError.js";
 import Conversation from "../models/conversation.model.js";
-//dd
+//ddd
 export const createConversation = async (req, res, next) => {
   const newConversation = new Conversation({
     id: req.isSeller ? req.userId + req.body.to : req.body.to + req.userId,
@@ -54,7 +54,7 @@ export const getConversations = async (req, res, next) => {
       req.isSeller ? { sellerId: req.userId } : { buyerId: req.userId }
     ).populate({
       path: req.isSeller ? 'buyerId' : 'sellerId',
-      select: 'username', // Assuming your User model has a 'username' field
+      select: 'username', 
       model: 'User',
     }).sort({ updatedAt: -1 });
     res.status(200).send(conversations);

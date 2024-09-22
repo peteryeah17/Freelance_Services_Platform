@@ -1,11 +1,11 @@
 import createError from "../utils/createError.js";
 import Message from "../models/message.model.js";
 import Conversation from "../models/conversation.model.js";
-//dd
+//ddd
 export const createMessage = async (req, res, next) => {
   const newMessage = new Message({
     conversationId: req.body.conversationId,
-    userId: req.userId, // still include this
+    userId: req.userId, 
     username: req.body.username, 
     desc: req.body.desc,
   });

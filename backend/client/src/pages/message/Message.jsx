@@ -3,7 +3,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 import newRequest from "../../utils/newRequest";
 import "./Message.scss";
-//dd
+//ddd
 const Message = () => {
   const { id } = useParams();
   const currentUser = JSON.parse(localStorage.getItem("currentUser"));
@@ -32,7 +32,7 @@ const Message = () => {
     mutation.mutate({
       conversationId: id,
       desc: e.target[0].value,
-      username: currentUser.username, // Ensure `currentUser` has a `username` field
+      username: currentUser.username, 
     });
     e.target[0].value = "";
   };
