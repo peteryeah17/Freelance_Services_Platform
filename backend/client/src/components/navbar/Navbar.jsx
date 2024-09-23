@@ -98,22 +98,22 @@ function Navbar() {
             <Link className="link menuLink" to="/gigs?cat=jerseys">
               Jerseys
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=headwear">
               Headwear
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=novelty">
               Novelty
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=men">
               Men
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=women">
               Women
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=kids">
               Kids
             </Link>
-            <Link className="link menuLink" to="/">
+            <Link className="link menuLink" to="/gigs?cat=lifestyle">
               Lifestyle
             </Link>
           </div>
