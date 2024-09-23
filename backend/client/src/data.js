@@ -1,52 +1,41 @@
 export const cards = [
   {
     id: 1,
-    title: "AI Artists",
-    desc: "Add talent to AI",
-    img: "https://images.pexels.com/photos/7532110/pexels-photo-7532110.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "New Arrival",
+    desc: "New Talent",
+    img: "https://cloudfront-us-east-1.images.arcpublishing.com/gmg/RKE4FVJMEBECJAUYOKV67VCPIM.jpg",
   },
   {
     id: 2,
-    title: "Logo Design",
-    desc: "Build yor brand",
-    img: "https://images.pexels.com/photos/11295165/pexels-photo-11295165.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "Jerseys",
+    desc: "NFL Jerseys",
+    img: "https://media.newyorker.com/photos/66d9fecefe3c705ef45c326c/master/w_2560%2Cc_limit/Helfand-Weekend-AaronR.jpg",
   },
   {
     id: 3,
-    title: "WordPress",
-    desc: "Customize your site",
-    img: "https://images.pexels.com/photos/4371669/pexels-photo-4371669.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "Jerseys",
+    desc: "NBA Jerseys",
+    img: "https://www.usatoday.com/gcdn/presto/2020/10/23/USAT/6fa5033f-9c44-4058-9d08-b80d61265fe6-Luka_Doncic.jpg?crop=3377,2529,x369,y147",
   },
   {
     id: 4,
-    title: "Voice Over",
-    desc: "Share your message",
-    img: "https://images.pexels.com/photos/7608079/pexels-photo-7608079.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "Novelty",
+    desc: "NBA Basketballs",
+    img: "https://i.ytimg.com/vi/YMvJrwJquvc/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCnpiERkyBTXOjGVnliJ0CVUo-FDQ",
   },
   {
     id: 5,
-    title: "Video Explainer",
-    desc: "Engage your audience",
-    img: "https://images.pexels.com/photos/13388047/pexels-photo-13388047.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "Headwear",
+    desc: "NFL Helmets",
+    img: "https://cdn.vox-cdn.com/thumbor/EeKIcER3sN_XYdBohIFIsFuw0KA=/0x0:3726x5589/1200x800/filters:focal(1770x1188:2366x1784)/cdn.vox-cdn.com/uploads/chorus_image/image/73597036/2172242308.0.jpg",
   },
   {
     id: 6,
-    title: "Social Media",
-    desc: "Reach more customers",
-    img: "https://images.pexels.com/photos/11378899/pexels-photo-11378899.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    title: "Lifestyle",
+    desc: "Hockey Apparel",
+    img: "https://www.bauer.com/cdn/shop/files/landing-apparel-secondary-womens-drop2_1500x.jpg?v=1721669863",
   },
-  {
-    id: 7,
-    title: "SEO",
-    desc: "Unlock growth online",
-    img: "https://images.pexels.com/photos/4820241/pexels-photo-4820241.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  },
-  {
-    id: 8,
-    title: "Illustration",
-    desc: "Color you dreams",
-    img: "https://images.pexels.com/photos/15032623/pexels-photo-15032623.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-  },
+ 
 ];
 
 export const projects = [
