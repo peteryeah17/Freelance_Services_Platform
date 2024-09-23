@@ -8,25 +8,23 @@ function Footer() {
         <div className="top">
           <div className="item">
             <h2>Categories</h2>
-            <span>Graphics & Design</span>
-            <span>Digital Marketing</span>
-            <span>Writing & Translation</span>
-            <span>Video & Animation</span>
-            <span>Music & Audio</span>
-            <span>Programming & Tech</span>
-            <span>Data</span>
+            <span>New Arrival</span>
+            <span>Jerseys</span>
+            <span>Headwear</span>
+            <span>Novelty</span>
+            <span>Men</span>
+            <span>Women</span>
+            <span>Kids</span>
             <span>Business</span>
             <span>Lifestyle</span>
-            <span>Photography</span>
             <span>Sitemap</span>
           </div>
           <div className="item">
             <h2>About</h2>
-            <span>Press & News</span>
+            <span>News</span>
             <span>Partnerships</span>
             <span>Privacy Policy</span>
             <span>Terms of Service</span>
-            <span>Intellectual Property Claims</span>
             <span>Investor Relations</span>
             <span>Contact Sales</span>
           </div>
@@ -34,13 +32,13 @@ function Footer() {
             <h2>Support</h2>
             <span>Help & Support</span>
             <span>Trust & Safety</span>
-            <span>Selling on Fiverr</span>
-            <span>Buying on Fiverr</span>
+            <span>Selling on GearUp</span>
+            <span>Buying on GearUp</span>
           </div>
           <div className="item">
             <h2>Community</h2>
             <span>Customer Success Stories</span>
-            <span>Community hub</span>
+            <span>Community Hub</span>
             <span>Forum</span>
             <span>Events</span>
             <span>Blog</span>
@@ -52,24 +50,24 @@ function Footer() {
             <span>Community Standards</span>
           </div>
           <div className="item">
-            <h2>More From Fiverr</h2>
-            <span>Fiverr Business</span>
-            <span>Fiverr Pro</span>
-            <span>Fiverr Logo Maker</span>
-            <span>Fiverr Guides</span>
+            <h2>More From GearUp</h2>
+            <span>GearUp Business</span>
+            <span>GearUp Pro</span>
+            <span>GearUp Logo Maker</span>
+            <span>GearUp Guides</span>
             <span>Get Inspired</span>
-            <span>Fiverr Select</span>
-            <span>ClearVoice</span>
-            <span>Fiverr Workspace</span>
-            <span>Learn</span>
-            <span>Working Not Working</span>
+            <span>NBA</span>
+            <span>NFL</span>
+            <span>MLB</span>
+            <span>NCAA</span>
+            <span>NHL</span>
           </div>
         </div>
         <hr />
         <div className="bottom">
           <div className="left">
-            <h2>fiverr</h2>
-            <span>© Fiverr International Ltd. 2023</span>
+            <h2>GearUp</h2>
+            <span>© GearUp International Ltd. 2024</span>
           </div>
           <div className="right">
             <div className="social">

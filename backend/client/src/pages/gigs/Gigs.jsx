@@ -76,7 +76,7 @@ function Gigs() {
         <div className="cards">
           {isLoading
             ? "loading"
-            : error
+            : error 
             ? "Something went wrong!"
             : data.map((gig) => <GigCard key={gig._id} item={gig} />)}
         </div>

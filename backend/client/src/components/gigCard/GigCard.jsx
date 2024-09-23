@@ -34,7 +34,7 @@ const GigCard = ({ item }) => {
               {!isNaN(item.totalStars / item.starNumber) &&
                 Math.round(item.totalStars / item.starNumber)}
             </span>
-          </div>
+          </div> 
         </div>
         <hr />
         <div className="detail">

@@ -89,29 +89,29 @@ function Navbar() {
         <>
           <hr />
           <div className="menu">
-            <Link className="link menuLink" to="/">
-              Graphics & Design
+            <Link className="link menuLink" to="/gigs">
+              All
             </Link>
             <Link className="link menuLink" to="/">
-              Video & Animation
+              New Arrival
+            </Link>
+            <Link className="link menuLink" to="/gigs?cat=jerseys">
+              Jerseys
             </Link>
             <Link className="link menuLink" to="/">
-              Writing & Translation
+              Headwear
             </Link>
             <Link className="link menuLink" to="/">
-              AI Services
+              Novelty
             </Link>
             <Link className="link menuLink" to="/">
-              Digital Marketing
+              Men
             </Link>
             <Link className="link menuLink" to="/">
-              Music & Audio
+              Women
             </Link>
             <Link className="link menuLink" to="/">
-              Programming & Tech
-            </Link>
-            <Link className="link menuLink" to="/">
-              Business
+              Kids
             </Link>
             <Link className="link menuLink" to="/">
               Lifestyle

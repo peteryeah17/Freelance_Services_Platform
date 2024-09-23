@@ -20,22 +20,21 @@ function Home() {
       <div className="features">
         <div className="container">
           <div className="item">
-            <h1>A whole world of freelance talent at your fingertips</h1>
+            <h1>A whole world of sports merchandise at your fingertips</h1>
             <div className="title">
               <img src="./img/check.png" alt="" />
               The best for every budget
             </div>
             <p>
-              Find high-quality services at every price point. No hourly rates,
+              Find high-quality gears at every price point. No hourly rates,
               just project-based pricing.
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              Quality work done quickly
+              Quality gears, search quickly
             </div>
             <p>
-              Find the right freelancer to begin working on your project within
-              minutes.
+              Discover your favorite gears and perfect seller in minutes.
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
@@ -43,15 +42,14 @@ function Home() {
             </div>
             <p>
               Always know what you'll pay upfront. Your payment isn't released
-              until you approve the work.
+              until you approve the gear.
             </p>
             <div className="title">
               <img src="./img/check.png" alt="" />
-              24/7 support
+              24/7 Support, always here
             </div>
             <p>
-              Find high-quality services at every price point. No hourly rates,
-              just project-based pricing.
+              Get 24/7 customer support for any inquiries or issues. We're always here to help!
             </p>
           </div>
           <div className="item">
