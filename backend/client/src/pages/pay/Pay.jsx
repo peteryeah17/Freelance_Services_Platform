@@ -37,13 +37,18 @@ const Pay = () => {
     appearance,
   };
 
-  return <div className="pay">
-    {clientSecret && (
+  return (
+    <div className="pay">
+      {clientSecret && (
         <Elements options={options} stripe={stripePromise}>
-          <CheckoutForm />
+          <div className="payment-container">
+            <h2>Enter your card information</h2>
+            <CheckoutForm />
+          </div>
         </Elements>
       )}
-  </div>;
+    </div>
+  );
 };
 
 export default Pay;

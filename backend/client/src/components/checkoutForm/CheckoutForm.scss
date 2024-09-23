@@ -1,0 +1,42 @@
+#submit {
+    width: 100%; /* Full width */
+    padding: 12px; /* Space inside the button */
+    background-color: #1dbf73; /* Green color */
+    color: white; /* White text */
+    border: none; /* Remove borders */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  #submit:hover {
+    background-color: #17a864; /* Slightly darker green on hover */
+  }
+  
+  #submit:disabled {
+    background-color: #ccc; /* Grey color when disabled */
+    cursor: not-allowed; /* Not-allowed cursor when disabled */
+  }
+  
+  #button-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid white;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
