@@ -2,6 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
+  
 //dd
   .container {
     width: 1400px;
@@ -9,7 +10,7 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-
+    
     .breadcrumbs {
       font-weight: 300;
       text-transform: uppercase;
@@ -108,9 +109,10 @@
 
     .cards {
       display: flex;
-      justify-content: space-between;
       flex-wrap: wrap;
-      margin-bottom: 120px;
+      gap: 160px;
+      margin-bottom: 180px;
+      
     }
   }
 }

@@ -22,7 +22,7 @@ function Home() {
           <div className="item">
             <h1>A whole world of sports merchandise at your fingertips</h1>
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src="./img/purplecheck.png" alt="" />
               The best for every budget
             </div>
             <p>
@@ -30,14 +30,14 @@ function Home() {
               just project-based pricing.
             </p>
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src="./img/purplecheck.png" alt="" />
               Quality gears, search quickly
             </div>
             <p>
               Discover your favorite gears and perfect seller in minutes.
             </p>
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src="./img/purplecheck.png" alt="" />
               Protected payments, every time
             </div>
             <p>
@@ -45,7 +45,7 @@ function Home() {
               until you approve the gear.
             </p>
             <div className="title">
-              <img src="./img/check.png" alt="" />
+              <img src="./img/purplecheck.png" alt="" />
               24/7 Support, always here
             </div>
             <p>
