@@ -151,13 +151,13 @@ function Gig() {
             <div className="features">
               {data.features.map((feature) => (
                 <div className="item" key={feature}>
-                  <img src="/img/greencheck.png" alt="" />
+                  <img src="/img/purplecheck.png" alt="" />
                   <span>{feature}</span>
                 </div>
               ))}
             </div>
             <Link to={`/pay/${id}`}>
-            <button>Continue</button>
+            <button>Check out</button>
             </Link>
           </div>
         </div>
