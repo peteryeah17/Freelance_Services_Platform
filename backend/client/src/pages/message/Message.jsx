@@ -51,10 +51,12 @@ const Message = () => {
           <div className="messages">
             {data.map((m) => (
               <div className={m.userId === currentUser._id ? "owner item" : "item"} key={m._id}>
+                {/*
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQsySfc8vjrF2k0NXJEeR6ytsTxmigCwb8Nw&s"
                   alt=""
-                />
+                /> 
+                */ }
                 <p>{m.desc}</p>
               </div>
             ))}

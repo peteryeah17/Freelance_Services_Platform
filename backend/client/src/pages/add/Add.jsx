@@ -75,15 +75,20 @@ const Add = () => {
             <input
               type="text"
               name="title"
-              placeholder="e.g. I will do something I'm really good at"
+              placeholder="Your gear title..."
               onChange={handleChange}
             />
             <label htmlFor="">Category</label>
             <select name="cat" id="cat" onChange={handleChange}>
-              <option value="design">Design</option>
-              <option value="web">Web Development</option>
-              <option value="animation">Animation</option>
-              <option value="music">Music</option>
+              <option value="jerseys">New Arrival</option>
+              <option value="jerseys">Jerseys</option>
+              <option value="shoes">Shoes</option>
+              <option value="headwear">Headwear</option>
+              <option value="novelty">Novelty</option>
+              <option value="men">Men</option>
+              <option value="women">Women</option>
+              <option value="kids">Kids</option>
+              <option value="lifestyle">Lifestyle</option>
             </select>
             <div className="images">
               <div className="imagesInputs">
