@@ -112,7 +112,7 @@ const Add = () => {
             <textarea
               name="desc"
               id=""
-              placeholder="Brief descriptions to introduce your service to customers"
+              placeholder="Brief descriptions to introduce your gear to customers"
               cols="0"
               rows="16"
               onChange={handleChange}
@@ -124,7 +124,7 @@ const Add = () => {
             <input
               type="text"
               name="shortTitle"
-              placeholder="e.g. One-page web design"
+              placeholder="e.g. Dirk Nowitzki Jersey"
               onChange={handleChange}
             />
             <label htmlFor="">Short Description</label>
@@ -132,7 +132,7 @@ const Add = () => {
               name="shortDesc"
               onChange={handleChange}
               id=""
-              placeholder="Short description of your service"
+              placeholder="Short description of your gear"
               cols="30"
               rows="10"
             ></textarea>
@@ -146,7 +146,7 @@ const Add = () => {
             />
             <label htmlFor="">Add Features</label>
             <form action="" className="add" onSubmit={handleFeature}>
-              <input type="text" placeholder="e.g. page design" />
+              <input type="text" placeholder="e.g. Classic design" />
               <button type="submit">add</button>
             </form>
             <div className="addedFeatures">
